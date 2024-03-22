@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+  --old-mauve: #703d57ff;
+  --faint-mauve: rgb(173, 98, 137);
+  --corn: #fff05aff;
+  --snow: #fdf7faff;
+  --tart-orange: #ff4d4dff;
+  --pine-tree: #25291cff;
+  --bg: #f5f4f2;
+  --accent: #f35251;
+  --soil: #d8c28b;
+  /* --pss: #fd835d; */
+  --pss: #ffbb4d;
+}
+
