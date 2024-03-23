@@ -1,7 +1,7 @@
 import Image from "next/image"
 import PopupForm from "./Popup"
 export default function Jargons(){
-    return  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-8 bg-gray-300 mt-8 ml-5 mr-5 rounded-lg">
+    return  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-8 bg-gray-200 mt-8 ml-5 mr-5 rounded-lg">
     <div className="bg-white hover:bg-yellow-100 p-6 rounded-lg shadow-lg w-46 flex flex-col items-center ">
       
     <Image

@@ -1,6 +1,6 @@
 import Image from "next/image"
 export default function Services(){
-    return <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-8 bg-gray-300 mt-8 ml-5 mr-5 rounded-lg ">
+    return <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-8 bg-gray-200 mt-8 ml-5 mr-5 rounded-lg ">
     <div className="text-center p-6 rounded-lg bg-white shadow-lg hover:bg-yellow-300">
         <Image
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT22h5Qx84ssDZWW5JCEdKNqBfhIZun8Cb0Cw&usqp=CAU"
