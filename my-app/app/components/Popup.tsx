@@ -9,11 +9,14 @@ const PopupForm = ({nameOfButton}: any) => {
     
     setIsOpen(!isOpen);
   };
+  const closePopup = (e:any) => {
+    if (e.target.classList.contains('bg-gray-800')) {
+      setIsOpen(false);
+    }
+  };
 
   return (
-    <div onClick={()=>{
-      setIsOpen(!isOpen);
-    }}>
+    <div onClick={closePopup}>
       <button onClick={togglePopup} className="bg-black text-white font-medium rounded-md p-2 mt-4 ml-3 transition-colors duration-300 hover:bg-yellow-300 hover:text-black">
         {nameOfButton}
       </button>

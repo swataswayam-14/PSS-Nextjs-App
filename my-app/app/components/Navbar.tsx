@@ -21,7 +21,12 @@ export default function Navbar(){
 
 const PopupFormNav = ({nameOfButton}: any) => {
     const [isOpen, setIsOpen] = useState(false);
-  
+
+    const closePopup = (e:any) => {
+      if (e.target.classList.contains('bg-gray-800')) {
+        setIsOpen(false);
+      }
+    };
     const togglePopup = () => {
       console.log('button clicked');
       
@@ -29,9 +34,7 @@ const PopupFormNav = ({nameOfButton}: any) => {
     };
   
     return (
-      <div onClick={()=>{
-        setIsOpen(!isOpen)
-      }}>
+      <div onClick={closePopup}>
         <button onClick={togglePopup} className="bg-black text-white font-medium rounded-md p-2 mt-4 sm:ml-3 transition-colors duration-300 hover:bg-yellow-300 hover:text-black">
           {nameOfButton}
         </button>
