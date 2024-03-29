@@ -13,7 +13,7 @@ import Services from "./components/Services";
 export default function Home() {
   return (
     <div className="bg-snow">
-      <Header/>
+      {/* <Header/> */}
       <Navbar/>
       <Section/>
       <ServiceOfferingTitle/>

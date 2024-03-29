@@ -1,9 +1,11 @@
 "use client"
 import { useState } from 'react';
+import { useRouter } from 'next/router'; 
+import { useEffect } from 'react';
 import Image from 'next/image';
 import PopupForm from './Popup';
 export default function Navbar(){
-    return <div className="bg-snow flex justify-between p-4">
+    return <div className="bg-snow flex justify-between p-2">
         <Image src="/logo.png" className="h-9 w-44 rounded-lg mt-5" alt="Logo of Financial Freedom" width={100} height={100}/>
         <PopupFormNav nameOfButton="Invest Now"/>
     </div>
@@ -27,7 +29,9 @@ const PopupFormNav = ({nameOfButton}: any) => {
     };
   
     return (
-      <div>
+      <div onClick={()=>{
+        setIsOpen(!isOpen)
+      }}>
         <button onClick={togglePopup} className="bg-black text-white font-medium rounded-md p-2 mt-4 sm:ml-3 transition-colors duration-300 hover:bg-yellow-300 hover:text-black">
           {nameOfButton}
         </button>
@@ -56,3 +60,4 @@ const PopupFormNav = ({nameOfButton}: any) => {
       </div>
     );
   };
+  

@@ -11,7 +11,9 @@ const PopupForm = ({nameOfButton}: any) => {
   };
 
   return (
-    <div>
+    <div onClick={()=>{
+      setIsOpen(!isOpen);
+    }}>
       <button onClick={togglePopup} className="bg-black text-white font-medium rounded-md p-2 mt-4 ml-3 transition-colors duration-300 hover:bg-yellow-300 hover:text-black">
         {nameOfButton}
       </button>
