@@ -35,7 +35,7 @@ const PopupForm = ({nameOfButton}: any) => {
               <input type="tel" id="phone" name="phone" className="w-full p-2 border border-gray-300 rounded mb-4" />
 
               <label htmlFor="city" className="block mb-2">City</label>
-              <input type="tel" id="city" name="city" className="w-full p-2 border border-gray-300 rounded mb-4" />
+              <input type="text" id="city" name="city" className="w-full p-2 border border-gray-300 rounded mb-4" />
 
               <button type="submit" className="bg-black hover:bg-yellow-500 hover:text-black text-white font-bold py-2 px-4 rounded">Submit</button>
             </form>
