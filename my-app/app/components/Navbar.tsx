@@ -8,10 +8,12 @@ import PopupForm from './Popup';
 import nodemailer from 'nodemailer';
 
 export default function Navbar(){
-    return <div className="bg-snow flex justify-between p-2">
-        <Image src="/logo.png" className="h-9 w-44 rounded-lg mt-5" alt="Logo of Financial Freedom" width={100} height={100}/>
-        <PopupFormNav nameOfButton="Invest Now"/>
+    return <div className="bg-snow flex justify-between p-2 items-center">
+    <div className="h-12 w-44 rounded-lg overflow-hidden">
+      <Image src="/logo.png" alt="Logo of Financial Freedom" width={200} height={100} className="h-full mt-1" />
     </div>
+    <PopupFormNav nameOfButton="Invest Now" className="h-12 my-1" />
+  </div>
 }
 
 
@@ -91,7 +93,7 @@ const PopupFormNav = ({nameOfButton}: any) => {
   
     return (
       <div onClick={closePopup}>
-        <button onClick={togglePopup} className="bg-black text-white font-medium rounded-md p-2 mt-4 sm:ml-3 transition-colors duration-300 hover:bg-yellow-300 hover:text-black">
+        <button onClick={togglePopup} className="bg-black text-white font-medium rounded-md p-2 mt-2 sm:ml-3 transition-colors duration-300 hover:bg-yellow-300 hover:text-black">
           {nameOfButton}
         </button>
         {isOpen &&(
