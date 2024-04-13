@@ -45,8 +45,9 @@ export default function Section(){
                         <br/>
                     </div>
                 </article>
-                <div></div>
-                <div></div>
+                <div>
+                </div>
+                <div className="shadow-2xl sm:ml-28 w-full h-auto overflow-hidden rounded-md"><img src="https://media.istockphoto.com/id/1503371245/photo/percentage-sign-on-top-of-coin-stacks-before-blue-financial-graph.webp?b=1&s=170667a&w=0&k=20&c=iMNT5BdW-v-hi1sy9MpkxdFllh3Ab2Qq_NQhZ3ZQdzc=" className="mt-6 transition duration-300 ease-in-out hover:scale-110 w-full h-full object-cover object-center rounded-md " alt="PSS Financial Images" /></div>
                 <div className="sm:flex sm:flex-row ml-10">
                     <p className="mr-3 mb-2 ">⭐⭐⭐⭐⭐</p>
                     <p className="text-black font-serif font-semibold text-xl">75,000+ customer reviews</p>
