@@ -24,7 +24,7 @@ export default function Home() {
       <Jargons/>
       <CopyRight/>
       <div className="bg-snow fixed bottom-2 right-0 z-50 rounded-full shadow-lg hover:bg-gray-100 transition-colors duration-300">
-        <a href="https://wa.me/9007881973?text=Hello can I help you?" target="_blank">
+        <a href="https://wa.me/+919007881973?text=Hello can I help you?" target="_blank">
           <img src="../whatsapp.png" alt="WhatsApp" className="w-14 h-14 object-cover rounded-lg" />
           
         </a>
