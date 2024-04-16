@@ -7,7 +7,7 @@ export default function Services(){
             alt="Shield Wealth"
             width={64}
             height={64}
-            className="w-16 h-16 mb-4"
+            className="w-16 h-16 mb-4 rounded-full"
         />
       <h2 className="text-xl font-bold text-black">Mutual Funds</h2>
       <p className="mb-4 text-gray-700">Offering a wide range of mutual funds products and services like SIP, FIS, INSTA/STP, with insurance...</p>
@@ -31,7 +31,7 @@ export default function Services(){
         alt="Shield Wealth"
         width={64}
         height={64}
-        className="w-16 h-16 mb-4"
+        className="w-16 h-16 mb-4 rounded-md"
     />
       <h2 className="text-xl font-bold text-black">Fixed Income Products</h2>
       <p className="mb-4 text-gray-700">Catering to our conservative investors who need fix and regular income & also who wants to diversify ...</p>
@@ -43,7 +43,7 @@ export default function Services(){
         alt="Shield Wealth"
         width={64}
         height={64}
-        className="w-16 h-16 mb-4"
+        className="w-16 h-16 mb-4 rounded-md"
       />
       <h2 className="text-xl font-bold text-black">Insurance</h2>
       <p className="mb-4 text-gray-700">Providing life and general insurance solutions through state of the art online platform. one can select, compare ...</p>
@@ -67,6 +67,7 @@ export default function Services(){
         alt="Shield Wealth"
         width={64}
         height={64}
+        className="rounded-md"
     />
       <h2 className="text-xl font-bold text-black">Commodities</h2>
       <p className="mb-4 text-gray-700">Commodity Contracts, forward contracts, foreign exchange positions and traded physical commodities...</p>
